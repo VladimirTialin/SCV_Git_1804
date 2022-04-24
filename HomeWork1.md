@@ -331,6 +331,10 @@ git branch
     ```
     git pull origin master --allow-unrelated-histories
     ```
+    Если будут возникать ошибки, тогда воспользуйтесь командой:
+    ```
+    git merge master --allow-unrelated-histories
+    ```
     После инициализации *(см. рисунок ниже)*, происходит слияние разных репозиториев, с которыми в дальнейшем мы можем работать. 
 
     ![Merge_history](Merge_history.png)
